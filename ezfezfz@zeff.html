@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>TypeError: /var/www/html/views/base.pug:6<br> &nbsp; &nbsp;4| &nbsp; &nbsp; head<br> &nbsp; &nbsp;5| &nbsp; &nbsp; &nbsp; &nbsp; base(href=&#39;/&#39;)<br> &nbsp;&gt; 6| &nbsp; &nbsp; &nbsp; &nbsp; title=meta.data.title<br> &nbsp; &nbsp;7| &nbsp; &nbsp; &nbsp; &nbsp; meta(charset=&#39;UTF-8&#39;)<br> &nbsp; &nbsp;8| &nbsp; &nbsp; &nbsp; &nbsp; //- meta(name=&#39;robots&#39; content=&#39;noindex, nofollow&#39;)<br> &nbsp; &nbsp;9| &nbsp; &nbsp; &nbsp; &nbsp; meta(name=&quot;viewport&quot;, content=&quot;width=device-width, initial-scale=1.0&quot;)<br><br>Cannot read properties of undefined (reading &#39;data&#39;)<br> &nbsp; &nbsp;at eval (eval at wrap (/var/www/html/node_modules/pug-runtime/wrap.js:6:10), &lt;anonymous&gt;:21:62)<br> &nbsp; &nbsp;at template (eval at wrap (/var/www/html/node_modules/pug-runtime/wrap.js:6:10), &lt;anonymous&gt;:529:7)<br> &nbsp; &nbsp;at exports.renderFile (/var/www/html/node_modules/pug/lib/index.js:454:38)<br> &nbsp; &nbsp;at exports.renderFile (/var/www/html/node_modules/pug/lib/index.js:444:21)<br> &nbsp; &nbsp;at exports.__express [as engine] (/var/www/html/node_modules/pug/lib/index.js:493:11)<br> &nbsp; &nbsp;at View.render (/var/www/html/node_modules/express/lib/view.js:135:8)<br> &nbsp; &nbsp;at tryRender (/var/www/html/node_modules/express/lib/application.js:657:10)<br> &nbsp; &nbsp;at Function.render (/var/www/html/node_modules/express/lib/application.js:609:3)<br> &nbsp; &nbsp;at ServerResponse.render (/var/www/html/node_modules/express/lib/response.js:1039:7)<br> &nbsp; &nbsp;at /var/www/html/app.js:480:7</pre>
+</body>
+</html>
